@@ -7,6 +7,9 @@
 
 body {
   margin: 0;
+  font-family: arial, sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
 }
 
 .main {
@@ -37,8 +40,13 @@ body {
 }
 
 input {
-  margin: 10px;
+  margin: 12px;
   width: 80%;
+  border-style: none;
+}
+
+*:focus {
+  outline: none;
 }
 
 li {
@@ -51,5 +59,11 @@ li {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(243, 243, 243);
+  color: rgb(99, 99, 99);
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.25rem;
 }
